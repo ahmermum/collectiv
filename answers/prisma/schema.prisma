@@ -1,0 +1,32 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Question {
+  id        String   @id @default(cuid())
+  content   String
+  code      String   @unique
+  createdAt DateTime @default(now())
+  answers   Answer[]
+}
+
+model Answer {
+  id         String   @id @default(cuid())
+  content    String
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id])
+  createdAt  DateTime @default(now())
+}
+
+model AISummary {
+  id         String   @id @default(cuid())
+  content    String
+  questionId String   @unique
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+} 

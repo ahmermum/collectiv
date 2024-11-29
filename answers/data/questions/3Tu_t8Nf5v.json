@@ -1,0 +1,11 @@
+{
+  "id": "3Tu_t8Nf5v",
+  "code": "3Tu_t8Nf5v",
+  "content": "Tell me about a time when you had to completely scrap a project you'd invested significant time in. How did you handle it, and what did you learn from the experience?",
+  "answers": [
+    "\"Last year, I spent three months leading the development of a new customer portal. We were about 70% complete when our user research revealed that our core assumptions about customer needs were incorrect. While it was difficult, I made the decision to halt the project. I gathered the team to transparently share the findings and pivot our efforts toward a solution that better matched customer needs. This experience taught me the importance of validating assumptions earlier in the development cycle. We now incorporate rapid prototyping and more frequent user testing in all our projects.\"",
+    "\"I had been working on an internal automation tool for six weeks when our company announced a merger. The acquiring company had their own enterprise-wide solution that we would need to adopt instead. Rather than viewing it as wasted effort, I documented all our requirements and use cases, which helped smooth the transition to the new system. I also realized that several components I'd built could be repurposed for other projects. This taught me the value of modular design and thorough documentation, even when a project's future is uncertain.\"",
+    "\"We had developed an extensive rebranding campaign set to launch in Q2. Two weeks before launch, a major competitor released a remarkably similar campaign. Rather than appear derivative, we made the tough call to scrap six months of work. Instead of dwelling on the setback, I led my team in a rapid 72-hour brainstorming session that produced an even more innovative concept. We learned to always have backup plans and to view unexpected challenges as opportunities for creativity. The new campaign actually performed better than our original concept would have.\""
+  ],
+  "createdAt": "2024-11-22T11:55:56.907Z"
+}
